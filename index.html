@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TECHNIK PROGRAMISTA | ZS Nr 1 Gorlice</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700;800&family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="matrix-bg" id="matrixBg"></div>
+    
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-bracket">&lt;</span>
+                <span class="logo-text">ZS#1</span>
+                <span class="logo-bracket">/&gt;</span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#hero" class="nav-link">START</a></li>
+                <li><a href="#school" class="nav-link">SZKOŁA</a></li>
+                <li><a href="#career" class="nav-link">KARIERA</a></li>
+                <li><a href="#skills" class="nav-link">UMIEJĘTNOŚCI</a></li>
+                <li><a href="#exams" class="nav-link">EGZAMINY</a></li>
+                <li><a href="#reality" class="nav-link">REALITY_CHECK</a></li>
+                <li><a href="#contact" class="nav-link">KONTAKT</a></li>
+            </ul>
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <div class="hero-glitch" data-text="TECHNIK">TECHNIK</div>
+            <div class="hero-glitch hero-glitch-2" data-text="PROGRAMISTA">PROGRAMISTA</div>
+            <div class="hero-subtitle">
+                <span class="typewriter" id="typewriter"></span>
+                <span class="cursor">|</span>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <div class="stat-value" data-target="15000">0</div>
+                    <div class="stat-label">PLN/MIESIĄC START</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value" data-target="98">0</div>
+                    <div class="stat-label">% ZATRUDNIENIA</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value" data-target="100">0</div>
+                    <div class="stat-label">% PRACA ZDALNA</div>
+                </div>
+            </div>
+            <div class="hero-cta">
+                <a href="#school" class="btn btn-primary">
+                    <span>DOŁĄCZ DO NAS</span>
+                    <div class="btn-glow"></div>
+                </a>
+                <a href="#career" class="btn btn-secondary">
+                    <span>POZNAJ ŚCIEŻKĘ</span>
+                    <div class="btn-glow"></div>
+                </a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <div class="arrow-down"></div>
+        </div>
+    </section>
+
+    <!-- School Section -->
+    <section id="school" class="school-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">// MIEJSCE GDZIE SIĘ UCZYMY</span>
+                <h2 class="section-title">
+                    <span class="title-bracket">[</span>
+                    ZESPÓŁ SZKÓŁ NR 1
+                    <span class="title-bracket">]</span>
+                </h2>
+                <p class="section-subtitle">im. Ignacego Łukasiewicza w Gorlicach</p>
+            </div>
+            
+            <div class="school-grid">
+                <div class="school-card school-main">
+                    <div class="card-icon">🏫</div>
+                    <h3>Tradycja & Nowoczesność</h3>
+                    <p>Od lat kształcimy najlepszych techników w regionie. Nasza szkoła łączy wieloletnią tradycję z najnowocześniejszymi metodami nauczania IT.</p>
+                    <a href="https://www.lukasiewicz.gorlice.pl/" target="_blank" class="card-link">
+                        lukasiewicz.gorlice.pl →
+                    </a>
+                </div>
+                
+                <div class="school-card">
+                    <div class="card-icon">💻</div>
+                    <h3>Nowoczesne Pracownie</h3>
+                    <p>Wyposażone w najnowszy sprzęt komputerowy, wieloosobowe sale z klimatyzacją i profesjonalne oprogramowanie używane w branży IT.</p>
+                </div>
+                
+                <div class="school-card">
+                    <div class="card-icon">👨‍🏫</div>
+                    <h3>Doświadczeni Nauczyciele</h3>
+                    <p>Kadra z praktycznym doświadczeniem w IT. Nie tylko teoria - uczymy tego, co faktycznie wykorzystasz w pracy.</p>
+                </div>
+                
+                <div class="school-card">
+                    <div class="card-icon">🎓</div>
+                    <h3>Wysoki Poziom Zdawalności</h3>
+                    <p>Nasi uczniowie regularnie osiągają ponad 90% zdawalności egzaminów zawodowych INF.03 i INF.04.</p>
+                </div>
+                
+                <div class="school-card">
+                    <div class="card-icon">🤝</div>
+                    <h3>Współpraca z Firmami</h3>
+                    <p>Partnerstwa z lokalnymi i międzynarodowymi firmami IT zapewniają praktyki i staże w prawdziwym środowisku pracy.</p>
+                </div>
+                
+                <div class="school-card">
+                    <div class="card-icon">🏆</div>
+                    <h3>Sukcesy Absolwentów</h3>
+                    <p>Nasi absolwenci pracują w Google, Microsoft, oraz wiodących polskich firmach IT. Jesteśmy z nich dumni!</p>
+                </div>
+            </div>
+
+            <div class="school-quote">
+                <div class="quote-mark">"</div>
+                <p class="quote-text">W ZS Nr 1 nie tylko uczysz się programowania - stajesz się częścią społeczności przyszłych liderów technologii.</p>
+                <div class="quote-author">- Absolwent, obecnie Senior Developer</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Career Path Section -->
+    <section id="career" class="career-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">// TWOJA ŚCIEŻKA ROZWOJU</span>
+                <h2 class="section-title">
+                    <span class="title-bracket">{</span>
+                    OD JUNIORA DO SENIORA
+                    <span class="title-bracket">}</span>
+                </h2>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-item" data-aos="fade-right">
+                    <div class="timeline-marker">
+                        <div class="timeline-number">01</div>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-time">0-6 MIESIĘCY</div>
+                        <h3>Junior Developer</h3>
+                        <p class="timeline-desc">Uczysz się podstaw, pracujesz pod okiem mentora, pierwszy kontakt z produkcyjnym kodem.</p>
+                        <div class="timeline-salary">8.000 - 12.000 PLN</div>
+                        <ul class="timeline-skills">
+                            <li>Podstawy programowania</li>
+                            <li>Git & wersjonowanie</li>
+                            <li>Praca w zespole</li>
+                            <li>Code review</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-left">
+                    <div class="timeline-marker">
+                        <div class="timeline-number">02</div>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-time">6-24 MIESIĄCE</div>
+                        <h3>Regular/Mid Developer</h3>
+                        <p class="timeline-desc">Samodzielna praca nad features, rozumiesz architekturę, pomagasz juniorom.</p>
+                        <div class="timeline-salary">12.000 - 20.000 PLN</div>
+                        <ul class="timeline-skills">
+                            <li>Samodzielność w zadaniach</li>
+                            <li>Design patterns</li>
+                            <li>API design</li>
+                            <li>Debugging zaawansowany</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-right">
+                    <div class="timeline-marker">
+                        <div class="timeline-number">03</div>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-time">2-4 LATA</div>
+                        <h3>Senior Developer</h3>
+                        <p class="timeline-desc">Projektujesz systemy, podejmujesz kluczowe decyzje techniczne, mentorujesz zespół.</p>
+                        <div class="timeline-salary">20.000 - 30.000 PLN</div>
+                        <ul class="timeline-skills">
+                            <li>Architektura systemów</li>
+                            <li>Mentoring</li>
+                            <li>Code quality</li>
+                            <li>Tech leadership</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-left">
+                    <div class="timeline-marker">
+                        <div class="timeline-number">04</div>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-time">4+ LAT</div>
+                        <h3>Tech Lead / Architect</h3>
+                        <p class="timeline-desc">Kierujesz zespołem technicznym, tworzysz strategię produktu, wpływasz na biznes.</p>
+                        <div class="timeline-salary">30.000 - 50.000+ PLN</div>
+                        <ul class="timeline-skills">
+                            <li>Strategia techniczna</li>
+                            <li>Team management</li>
+                            <li>Business understanding</li>
+                            <li>Stakeholder communication</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">// CO BĘDZIESZ PROGRAMOWAĆ</span>
+                <h2 class="section-title">
+                    <span class="title-bracket">&lt;</span>
+                    TECH STACK
+                    <span class="title-bracket">/&gt;</span>
+                </h2>
+            </div>
+
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 class="category-title">FRONTEND</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-icon">🎨</div>
+                            <span>HTML5 & CSS3</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">⚡</div>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">⚛️</div>
+                            <span>React.js</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">💚</div>
+                            <span>Vue.js</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="category-title">BACKEND</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-icon">🐍</div>
+                            <span>Python</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">☕</div>
+                            <span>Java</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">🟢</div>
+                            <span>Node.js</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">💎</div>
+                            <span>Ruby</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="category-title">DATABASES</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-icon">🗄️</div>
+                            <span>MySQL</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">🐘</div>
+                            <span>PostgreSQL</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">🍃</div>
+                            <span>MongoDB</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">⚡</div>
+                            <span>Redis</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="category-title">TOOLS & MORE</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-icon">📦</div>
+                            <span>Git</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">🐳</div>
+                            <span>Docker</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">☁️</div>
+                            <span>AWS/Azure</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">🔧</div>
+                            <span>CI/CD</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Exams Section -->
+    <section id="exams" class="exams-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">// TWOJE WYZWANIA</span>
+                <h2 class="section-title">
+                    <span class="title-bracket">$</span>
+                    EGZAMINY ZAWODOWE
+                    <span class="title-bracket">_</span>
+                </h2>
+            </div>
+
+            <div class="exams-grid">
+                <div class="exam-card exam-inf03">
+                    <div class="exam-header">
+                        <div class="exam-badge">INF.03</div>
+                        <h3>Tworzenie i Administrowanie Stronami</h3>
+                    </div>
+                    <p class="exam-description">
+                        Egzamin praktyczny z tworzenia aplikacji internetowych. Sprawdza Twoją znajomość HTML, CSS, JavaScript, PHP oraz baz danych.
+                    </p>
+                    <div class="exam-topics">
+                        <div class="topic-item">
+                            <span class="topic-check">✓</span>
+                            <span>Projektowanie interfejsów użytkownika</span>
+                        </div>
+                        <div class="topic-item">
+                            <span class="topic-check">✓</span>
+                            <span>Programowanie w JavaScript</span>
+                        </div>
+                        <div class="topic-item">
+                            <span class="topic-check">✓</span>
+                            <span>Backend w PHP/Python</span>
+                        </div>
+                        <div class="topic-item">
+                            <span class="topic-check">✓</span>
+                            <span>Obsługa baz danych SQL</span>
+                        </div>
+                        <div class="topic-item">
+                            <span class="topic-check">✓</span>
+                            <span>Systemy CMS (WordPress)</span>
+                        </div>
+                    </div>
+                    <div class="exam-stats">
+                        <div class="exam-stat">
+                            <div class="stat-number">120 min</div>
+                            <div class="stat-label">Czas trwania</div>
+                        </div>
+                        <div class="exam-stat">
+                            <div class="stat-number">50%</div>
+                            <div class="stat-label">Próg zaliczenia</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="exam-card exam-inf04">
+                    <div class="exam-header">
+                        <div class="exam-badge">INF.04</div>
+                        <h3>Projektowanie i Programowanie Aplikacji</h3>
+                    </div>
+                    <p class="exam-description">
+                        Egzamin z tworzenia aplikacji desktopowych i mobilnych. Obejmuje programowanie obiektowe, algorytmikę i testowanie.
+                    </p>
+                    <div class="exam-topics">
+                        <div class="topic-item">
+                            <span class="topic-check">✓</span>
+                            <span>Programowanie obiektowe (OOP)</span>
+                        </div>
+                        <div class="topic-item">
+                            <span class="topic-check">✓</span>
+                            <span>Aplikacje desktopowe (Java/C++)</span>
+                        </div>
+                        <div class="topic-item">
+                            <span class="topic-check">✓</span>
+                            <span>Aplikacje mobilne (Android/iOS)</span>
+                        </div>
+                        <div class="topic-item">
+                            <span class="topic-check">✓</span>
+                            <span>Algorytmy i struktury danych</span>
+                        </div>
+                        <div class="topic-item">
+                            <span class="topic-check">✓</span>
+                            <span>Testowanie oprogramowania</span>
+                        </div>
+                    </div>
+                    <div class="exam-stats">
+                        <div class="exam-stat">
+                            <div class="stat-number">120 min</div>
+                            <div class="stat-label">Czas trwania</div>
+                        </div>
+                        <div class="exam-stat">
+                            <div class="stat-number">50%</div>
+                            <div class="stat-label">Próg zaliczenia</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="exam-tips">
+                <h3>💡 TIPS & TRICKS</h3>
+                <div class="tips-grid">
+                    <div class="tip-item">
+                        <strong>Stack Overflow = Twój najlepszy przyjaciel</strong>
+                        <p>90% programistów regularnie korzysta z tego serwisu. To nie ściąganie, to research!</p>
+                    </div>
+                    <div class="tip-item">
+                        <strong>Praktyka czyni mistrza</strong>
+                        <p>Coduj każdego dnia, nawet jeśli tylko 30 minut. Konsystencja > intensywność.</p>
+                    </div>
+                    <div class="tip-item">
+                        <strong>Nie bój się błędów</strong>
+                        <p>Każdy senior developer był kiedyś juniorem, który łamał produkcję o 3 nad ranem.</p>
+                    </div>
+                    <div class="tip-item">
+                        <strong>Czytaj dokumentację</strong>
+                        <p>RTFM (Read The... Friendly Manual) to zasada #1. Dokumentacja jest Twoim przyjacielem.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reality Check Section -->
+    <section id="reality" class="reality-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">// PRAWDA O PROGRAMOWANIU</span>
+                <h2 class="section-title">
+                    <span class="title-bracket">!</span>
+                    REALITY CHECK
+                    <span class="title-bracket">!</span>
+                </h2>
+                <p class="section-subtitle">Bo nie wszystko jest kolorowe jak w reklamach</p>
+            </div>
+
+            <div class="reality-grid">
+                <div class="reality-card reality-good">
+                    <div class="reality-icon">😊</div>
+                    <h3>PLUSY</h3>
+                    <ul class="reality-list">
+                        <li>
+                            <span class="reality-emoji">💰</span>
+                            <div>
+                                <strong>Świetne zarobki</strong>
+                                <p>Już jako junior możesz zarabiać więcej niż twoi rodzice</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="reality-emoji">🏠</span>
+                            <div>
+                                <strong>Praca zdalna</strong>
+                                <p>Możesz pracować z domu, plaży, czy nawet z Bali</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="reality-emoji">🧠</span>
+                            <div>
+                                <strong>Ciągły rozwój</strong>
+                                <p>Nigdy się nie nudzisz - zawsze coś nowego do nauki</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="reality-emoji">🌍</span>
+                            <div>
+                                <strong>Międzynarodowe możliwości</strong>
+                                <p>Pracuj dla firm z całego świata, zarabiaj w dolarach</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="reality-emoji">⏰</span>
+                            <div>
+                                <strong>Elastyczne godziny</strong>
+                                <p>Często możesz sam ustalać swoje godziny pracy</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="reality-card reality-bad">
+                    <div class="reality-icon">😰</div>
+                    <h3>MINUSY</h3>
+                    <ul class="reality-list">
+                        <li>
+                            <span class="reality-emoji">🐛</span>
+                            <div>
+                                <strong>Debugowanie do 3 w nocy</strong>
+                                <p>Ten błąd, który szukasz od 5 godzin? To przecinek.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="reality-emoji">⏳</span>
+                            <div>
+                                <strong>Presja deadline'ów</strong>
+                                <p>"Potrzebujemy to na wczoraj" to najczęstsze zdanie klienta</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="reality-emoji">📚</span>
+                            <div>
+                                <strong>Wieczna nauka</strong>
+                                <p>Co 6 miesięcy nowy framework. Angular? Passé. React? Old school.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="reality-emoji">💻</span>
+                            <div>
+                                <strong>Syndrom oszusta</strong>
+                                <p>Nawet seniorzy czasem czują, że nic nie wiedzą</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="reality-emoji">👥</span>
+                            <div>
+                                <strong>Code review drama</strong>
+                                <p>"Dlaczego użyłeś pętli for zamiast map?" - wojny religijne</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="reality-quote">
+                <div class="quote-large">"</div>
+                <p class="quote-text-large">
+                    99 małych bugów w kodzie,<br>
+                    99 małych bugów.<br>
+                    Poprawisz jeden, zrobisz commit,<br>
+                    117 małych bugów w kodzie.
+                </p>
+                <div class="quote-author">- Klasyczna pieśń programisty</div>
+            </div>
+
+            <div class="survival-guide">
+                <h3>🎯 JAK PRZETRWAĆ?</h3>
+                <div class="survival-items">
+                    <div class="survival-item">
+                        <div class="survival-number">01</div>
+                        <h4>Kawa jest twoim przyjacielem</h4>
+                        <p>Ale pamiętaj o wodzie. Odwodnienie nie pomoże ci znaleźć tego buga.</p>
+                    </div>
+                    <div class="survival-item">
+                        <div class="survival-number">02</div>
+                        <h4>Git commit często</h4>
+                        <p>"git commit -m 'WIP'" może uratować ci życie. A przynajmniej pracę z ostatnich 4 godzin.</p>
+                    </div>
+                    <div class="survival-item">
+                        <div class="survival-number">03</div>
+                        <h4>Stack Overflow > Google</h4>
+                        <p>Jeśli masz problem, 99% że ktoś już go rozwiązał i wrzucił na SO.</p>
+                    </div>
+                    <div class="survival-item">
+                        <div class="survival-number">04</div>
+                        <h4>Przerwij na lunch</h4>
+                        <p>Nie jedz przed monitorem. Okruszki w klawiaturze to prawdziwy problem.</p>
+                    </div>
+                    <div class="survival-item">
+                        <div class="survival-number">05</div>
+                        <h4>Komentuj swój kod</h4>
+                        <p>Za 6 miesięcy nie będziesz pamiętał co robi ta funkcja. Seriously.</p>
+                    </div>
+                    <div class="survival-item">
+                        <div class="survival-number">06</div>
+                        <h4>Backup, backup, backup</h4>
+                        <p>rm -rf * nie pyta czy jesteś pewien. A dysk może umrzeć w każdej chwili.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">// POŁĄCZMY SIĘ</span>
+                <h2 class="section-title">
+                    <span class="title-bracket">@</span>
+                    KONTAKT
+                    <span class="title-bracket">@</span>
+                </h2>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Zespół Szkół Nr 1 im. Ignacego Łukasiewicza</h3>
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div>
+                            <strong>Adres:</strong><br>
+                            ul. [Adres szkoły]<br>
+                            38-300 Gorlice
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📞</div>
+                        <div>
+                            <strong>Telefon:</strong><br>
+                            [Numer telefonu]
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">✉️</div>
+                        <div>
+                            <strong>Email:</strong><br>
+                            sekretariat@lukasiewicz.gorlice.pl
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">🌐</div>
+                        <div>
+                            <strong>Strona WWW:</strong><br>
+                            <a href="https://www.lukasiewicz.gorlice.pl/" target="_blank">lukasiewicz.gorlice.pl</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-cta">
+                    <div class="cta-box">
+                        <h3>Gotowy na start?</h3>
+                        <p>Rekrutacja na rok szkolny 2026/2027 już ruszyła!</p>
+                        <a href="https://www.lukasiewicz.gorlice.pl/" target="_blank" class="btn btn-primary">
+                            <span>SPRAWDŹ REKRUTACJĘ</span>
+                            <div class="btn-glow"></div>
+                        </a>
+                    </div>
+
+                    <div class="terminal-box">
+                        <div class="terminal-header">
+                            <div class="terminal-buttons">
+                                <span class="terminal-btn terminal-red"></span>
+                                <span class="terminal-btn terminal-yellow"></span>
+                                <span class="terminal-btn terminal-green"></span>
+                            </div>
+                            <div class="terminal-title">student@zs1:~$</div>
+                        </div>
+                        <div class="terminal-body">
+                            <p><span class="terminal-prompt">$</span> whoami</p>
+                            <p class="terminal-output">Przyszły programista</p>
+                            <p><span class="terminal-prompt">$</span> echo $FUTURE</p>
+                            <p class="terminal-output">Unlimited possibilities</p>
+                            <p><span class="terminal-prompt">$</span> sudo apt-get install success</p>
+                            <p class="terminal-output">Pakiet zostanie zainstalowany w ZS Nr 1...</p>
+                            <p class="terminal-cursor">_</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <div class="footer-logo">
+                        <span class="logo-bracket">&lt;</span>
+                        <span class="logo-text">ZS#1</span>
+                        <span class="logo-bracket">/&gt;</span>
+                    </div>
+                    <p class="footer-tagline">Koduj swoją przyszłość</p>
+                </div>
+                <div class="footer-right">
+                    <p>&copy; 2026 Zespół Szkół Nr 1 im. Ignacego Łukasiewicza</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-code">
+                    <code>
+                        while(learning) { skills++; salary++; happiness++; }
+                    </code>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
